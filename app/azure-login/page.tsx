@@ -86,11 +86,11 @@ export default function AzureLoginPage() {
             ) : (
               <AnimatedButton
                 type="button"
-                className="w-full bg-[#0078d4] hover:bg-[#106ebe] text-white"
+                className="w-full h-12 text-base bg-[#0078d4] hover:bg-[#106ebe] text-white flex items-center justify-center"
                 onClick={handleAzureLogin}
                 isLoading={isLoading}
               >
-                <Shield className="mr-2 h-5 w-5" />
+                <Shield className="h-5 w-5 mr-2" />
                 Continuer avec Azure DevOps
               </AnimatedButton>
             )}
